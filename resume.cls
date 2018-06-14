@@ -1,3 +1,5 @@
+% Copyright (C) 2018 by Bin Yuan
+
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{resume}[2015/05/25 An elegant Résumé class]
 \LoadClass[11pt]{article}
