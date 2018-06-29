@@ -96,9 +96,21 @@
   \ifthenelse{\isempty{#1}}%
     {\href{#2}{#2}}
     {\href{#2}{#1}}}
+% defines one's twitter
+% usage: \twitter{<twitter>}
+\newcommand{\twitter}[2][]{\faTwitter\ 
+  \ifthenelse{\isempty{#1}}%
+    {\href{#2}{#2}}
+    {\href{#2}{#1}}}
 % defines one's GitHub
 % usage: \github{<github>}
 \newcommand{\github}[2][]{\faGithub\ 
+  \ifthenelse{\isempty{#1}}%
+    {\href{#2}{#2}}
+    {\href{#2}{#1}}}
+% defines one's Address
+% usage: \address{<address>}
+\newcommand{\address}[2][]{\faHome\ 
   \ifthenelse{\isempty{#1}}%
     {\href{#2}{#2}}
     {\href{#2}{#1}}}
